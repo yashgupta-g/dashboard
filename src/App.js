@@ -1,21 +1,13 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route, BrowserRouter } from 'react-router-dom';
 import Dashboard from "./Dashboard";
-function LoginSignupPage() {
+function App() {
 
   return (
     <>
- 
- < BrowserRouter >
-      <Routes>
-      <Route   path="/dashboard" element={<Dashboard/>}/>
-      </Routes>
-    </BrowserRouter>
-
-   
+ <Dashboard/>
    </>
   );
 }
 
-export default LoginSignupPage;
+export default App;
 
