@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  height: 100vh;
+}
+
+.card-spacing > * + * {
+  margin-top: 36.48px;
+}
+
+@media (min-width: 1024px) {
+  .card-spacing > * + * {
+    margin-top: 0;
+    margin-left: 36.48px;
+  }
+}
